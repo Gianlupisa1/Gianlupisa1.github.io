@@ -1,0 +1,267 @@
+1
+00:00:00,979 --> 00:00:07,379
+Ho trattato il criterio di successo
+1.4.2 sul Controllo Audio e
+
+2
+00:00:07,379 --> 00:00:13,320
+il Criterio di Successo 1.4.7 sullo Sfondo Sonoro. Questi due criteri hanno in comune un elemento
+
+3
+00:00:13,320 --> 00:00:21,029
+ovvero l'audio, il suono.
+Parlando del criterio di successo 1.4.2
+
+4
+00:00:21,029 --> 00:00:26,230
+ho voluto illustrare
+i metodi per migliorare l'accessibilità
+
+5
+00:00:26,230 --> 00:00:32,460
+del proprio sito il quale include
+un video
+
+6
+00:00:33,910 --> 00:00:41,540
+sono perciò riuscito a illustrare come
+può essere controllato il filmato
+
+7
+00:00:41,540 --> 00:00:47,770
+da parte dell'utente come può essere
+aggiunta questa opzione di accessibilità
+
+8
+00:00:47,770 --> 00:00:57,140
+e anche come far riprodurre i suoni
+solamente su richiesta dell'utente
+
+9
+00:00:57,140 --> 00:01:04,250
+per il controllo del filmato intendo la possibilità per l'utente
+
+10
+00:01:04,250 --> 00:01:17,890
+di poter
+bloccare il filmato, andare avanti, andare indietro
+mettere in pausa o comunque
+
+11
+00:01:17,890 --> 00:01:23,979
+avere tutti i possibili controlli per
+quel video come metterlo a tutto schermo o
+
+12
+00:01:23,979 --> 00:01:27,390
+comunque controllare l'audio.
+
+13
+00:01:27,640 --> 00:01:36,140
+Per fare questo ho aggiunto nel mio
+codice html nella parte riguardante il
+
+14
+00:01:36,140 --> 00:01:48,370
+video quindi dove c'è anche la fonte
+del video, ho aggiunto la parola "Controls". Questa dicitura permette
+
+15
+00:01:48,550 --> 00:01:56,600
+di mostrare una barra ovvero
+
+16
+00:01:56,600 --> 00:02:01,400
+questa barra che praticamente permette
+di andare avanti nel video,
+
+17
+00:02:01,400 --> 00:02:09,800
+andare indietro, poterlo controllare pienamente, poter modificare l'audio
+
+18
+00:02:09,800 --> 00:02:15,890
+poterlo ridurre o aumentare e poterlo far
+ripartire in qualsiasi punto
+
+19
+00:02:15,890 --> 00:02:19,510
+e ovviamente la modalità schermo intero
+
+20
+00:02:20,590 --> 00:02:25,040
+Parlando invece della riproduzione
+di suoni solamente su richiesta
+
+21
+00:02:25,040 --> 00:02:28,790
+dell'utente,
+anche qui è bastato inserire la stessa dicitura
+
+22
+00:02:28,790 --> 00:02:33,910
+ovvero "Controls" come ho fatto vedere
+prima infatti può potrò tramite
+
+23
+00:02:33,910 --> 00:02:42,200
+questo cursore potrò diminuire,
+aumentare il volume e ovviamente
+
+24
+00:02:42,200 --> 00:02:51,880
+bloccarlo quindi far partire il video
+senza alcun audio per poi poterlo rifare partire successivamente.
+
+25
+00:02:52,060 --> 00:03:05,500
+Ho inserito inoltre la
+possibilità di far partire il video insieme al sito di default mutato
+tramite la dicitura "Mood"
+
+26
+00:03:05,510 --> 00:03:12,709
+in modo che se l'utente non si dovesse aspettare un sito con un video che
+
+27
+00:03:12,709 --> 00:03:18,380
+parta da solo a tutto volume,
+ovviamente gli parta mutato e poi se
+
+28
+00:03:18,380 --> 00:03:23,380
+vuole può rifar partire l'audio o
+meno.
+
+29
+00:03:25,730 --> 00:03:29,799
+Parlando invece del criterio di successo
+1.4.7 sullo sfondo sonoro,
+
+30
+00:03:29,799 --> 00:03:35,709
+questo è un criterio che dovrebbe riuscire a garantire
+
+31
+00:03:35,709 --> 00:03:42,960
+ad ogni utente, anche coloro che hanno
+purtroppo dei problemi di udito possano
+
+32
+00:03:42,960 --> 00:03:53,820
+riuscire a distinguere ciò che riguarda il discorso vocale,
+
+33
+00:03:53,820 --> 00:04:01,310
+il suono vocale che è presente nel video e
+possano distinguerlo separarlo da altri
+
+34
+00:04:01,310 --> 00:04:10,060
+altri tipi di sottofondo contenuti
+vocali esterni al contenuto vocale.
+
+35
+00:04:10,280 --> 00:04:16,760
+La tecnica che ora spiego è la G56
+
+36
+00:04:16,770 --> 00:04:26,240
+ovvero la tecnica per verificare che
+questo che questo avvenga per essere
+
+37
+00:04:26,250 --> 00:04:31,440
+sicuri che ci sia una
+buona distinzione fra i due
+
+38
+00:04:31,440 --> 00:04:37,860
+contenuti sonori bisogna fare la
+verifica misurando i decibel del volume
+
+39
+00:04:37,860 --> 00:04:44,040
+del video quindi la procedura è questa:
+come prima cosa bisogna misurare
+
+40
+00:04:44,040 --> 00:04:51,420
+i decibel totali del video ovvero durante
+un momento in cui il video riproduce sia
+
+41
+00:04:51,420 --> 00:04:57,990
+il contenuto della voce sia il contenuto
+dello sfondo sonoro e quindi come dico
+
+42
+00:04:57,990 --> 00:05:02,970
+qui il volume totale
+poi bisogna successivamente misurare
+
+43
+00:05:02,970 --> 00:05:08,880
+sempre tramite un
+misuratore decibel che io ora non ho
+
+44
+00:05:08,880 --> 00:05:13,860
+o tramite un misuratore tramite
+applicazione sul cellulare può essere
+
+45
+00:05:13,860 --> 00:05:17,850
+verificata questa cosa e si misura
+quindi il volume parziale ovvero
+
+46
+00:05:17,850 --> 00:05:24,360
+solamente lo sfondo sonoro. Dopo aver
+fatto questa questa misurazione basta
+
+47
+00:05:24,360 --> 00:05:29,760
+sottrarre al volume totale il volume
+parziale per poter trovare
+
+48
+00:05:29,760 --> 00:05:37,820
+unicamente il volume
+applicato alla voce. Se questo risultato
+
+49
+00:05:37,820 --> 00:05:45,540
+è uguale o superiore a 20 decibel
+allora il criterio 1.4.7 può
+
+50
+00:05:45,540 --> 00:05:52,030
+essere considerato
+soddisfatto
+
+51
+00:05:52,030 --> 00:05:59,140
+quindi il sito è accessibile anche a un
+ha un utente con problemi di udito.
+
+52
+00:05:59,900 --> 00:06:04,010
+L'altra possibile soluzione come è
+scritto anche nel documento è quella di
+
+53
+00:06:04,010 --> 00:06:11,390
+eliminare completamente lo sfondo sonoro
+ovvero far partire il video solamente
+
+54
+00:06:11,390 --> 00:06:17,450
+con la voce nel senso di non inserire alcun
+contenuto sonoro di sottofondo.
+
+55
+00:06:17,450 --> 00:06:22,480
+Spero di essere stato chiaro,
+ciao a tutti!
+

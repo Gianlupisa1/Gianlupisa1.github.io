@@ -1,0 +1,219 @@
+1
+00:00:00,979 --> 00:00:07,379
+I have covered the Success Criterion 1.4.2 on Audio Control and
+
+2
+00:00:07,379 --> 00:00:13,320
+the Success Criterion 1.4.7 on the Sound Background. These two criteria have one element in common
+
+3
+00:00:13,320 --> 00:00:21,029
+that is the sound. Speaking of the success criterion 1.4.2
+
+4
+00:00:21,029 --> 00:00:26,230
+I wanted to illustrate ways to improve accessibility
+
+5
+00:00:26,230 --> 00:00:32,460
+of your site which includes a video
+
+6
+00:00:33,910 --> 00:00:41,540
+I was therefore able to illustrate how the movie can be controlled
+
+7
+00:00:41,540 --> 00:00:47,770
+by the user how this accessibility option can be added
+
+8
+00:00:47,770 --> 00:00:57,140
+and also how to have the sounds reproduced only at the request of the user
+
+9
+00:00:57,140 --> 00:01:04,250
+by controlling the movie I mean the possibility for the user
+
+10
+00:01:04,250 --> 00:01:17,890
+to be able to freeze the movie, go forward, go back, pause or otherwise
+
+11
+00:01:17,890 --> 00:01:23,979
+have all possible controls for that video like putting it in full screen or
+
+12
+00:01:23,979 --> 00:01:27,390
+still check the audio.
+
+13
+00:01:27,640 --> 00:01:36,140
+To do this I added in my html code in the part concerning the
+
+14
+00:01:36,140 --> 00:01:48,370
+video so where there is also the source of the video, I added the word "Controls". This wording allows
+
+15
+00:01:48,550 --> 00:01:56,600
+to show a bar that is
+
+16
+00:01:56,600 --> 00:02:01,400
+this bar that practically allows you to go forward in the video,
+
+17
+00:02:01,400 --> 00:02:09,800
+go back, be able to fully control it, be able to edit the audio
+
+18
+00:02:09,800 --> 00:02:15,890
+being able to reduce or increase it and be able to restart it at any point
+
+19
+00:02:15,890 --> 00:02:19,510
+and of course full screen mode
+
+20
+00:02:20,590 --> 00:02:25,040
+Speaking instead of the reproduction of sounds only on request
+
+21
+00:02:25,040 --> 00:02:28,790
+of the user, even here it was enough to enter the same wording
+
+22
+00:02:28,790 --> 00:02:33,910
+or "Controls" as I have shown before in fact it can I can through
+
+23
+00:02:33,910 --> 00:02:42,200
+this slider I will be able to decrease, increase the volume and of course
+
+24
+00:02:42,200 --> 00:02:51,880
+block it then start the video without any audio and then start it again later.
+
+25
+00:02:52,060 --> 00:03:05,500
+I also added the possibility of starting the video together with the changed default site by means of the wording "Mood"
+
+26
+00:03:05,510 --> 00:03:12,709
+so that if the user does not expect a site with a video that
+
+27
+00:03:12,709 --> 00:03:18,380
+starts by itself at full volume, obviously it starts changed and then if
+
+28
+00:03:18,380 --> 00:03:23,380
+want can restart the audio or not.
+
+29
+00:03:25,730 --> 00:03:29,799
+Speaking instead of the success criterion 1.4.7 on the sound background,
+
+30
+00:03:29,799 --> 00:03:35,709
+this is a criterion that should be able to guarantee
+
+31
+00:03:35,709 --> 00:03:42,960
+to every user, even those who unfortunately have hearing problems can
+
+32
+00:03:42,960 --> 00:03:53,820
+be able to distinguish what concerns vocal speech,
+
+33
+00:03:53,820 --> 00:04:01,310
+the vocal sound that is present in the video and can distinguish it separate it from others
+
+34
+00:04:01,310 --> 00:04:10,060
+other types of background speech content external to speech content.
+
+35
+00:04:10,280 --> 00:04:16,760
+The technique I am now explaining is the G56
+
+36
+00:04:16,770 --> 00:04:26,240
+that is the technique to verify that this happens to be
+
+37
+00:04:26,250 --> 00:04:31,440
+sure there is a good distinction between the two
+
+38
+00:04:31,440 --> 00:04:37,860
+sound contents must be checked by measuring the decibels of the volume
+
+39
+00:04:37,860 --> 00:04:44,040
+of the video then the procedure is this: first you need to measure
+
+40
+00:04:44,040 --> 00:04:51,420
+the total decibels of the video or during a time when the video plays both
+
+41
+00:04:51,420 --> 00:04:57,990
+the content of the voice is the content of the sound background and therefore as I say
+
+42
+00:04:57,990 --> 00:05:02,970
+here the total volume then must subsequently be measured
+
+43
+00:05:02,970 --> 00:05:08,880
+always via a decibel meter that I don't have now
+
+44
+00:05:08,880 --> 00:05:13,860
+or via a meter via mobile application can be
+
+45
+00:05:13,860 --> 00:05:17,850
+verified this thing and then measure the partial volume or
+
+46
+00:05:17,850 --> 00:05:24,360
+only the sound background. After doing this this measurement is enough
+
+47
+00:05:24,360 --> 00:05:29,760
+subtract the partial volume from the total volume in order to find
+
+48
+00:05:29,760 --> 00:05:37,820
+only the volume applied to the voice. If this result
+
+49
+00:05:37,820 --> 00:05:45,540
+is equal to or greater than 20 decibels then criterion 1.4.7 can
+
+50
+00:05:45,540 --> 00:05:52,030
+be considered satisfied
+
+51
+00:05:52,030 --> 00:05:59,140
+therefore the site is also accessible to a user with hearing problems.
+
+52
+00:05:59,900 --> 00:06:04,010
+The other possible solution as it is also written in the document is that of
+
+53
+00:06:04,010 --> 00:06:11,390
+completely eliminate the sound background or start the video only
+
+54
+00:06:11,390 --> 00:06:17,450
+with the voice in the sense of not inserting any background sound content.
+
+55
+00:06:17,450 --> 00:06:22,480
+I hope I was clear, hello everyone!
